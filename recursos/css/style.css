@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;   
+}
+
+.linea{
+    max-width: 1140px;
+    margin: 0 auto;  
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url(img/header-Goln.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    
+}
+
+h1{
+    margin: 0;
+}
+
+.header-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.panel-principal{
+    float: right;
+    list-style: none;
+    margin-top: 60px;    
+}
+
+.panel-principal li{
+    display: inline-block;
+    margin-left: 40px;   
+}
+
+.panel-principal li a:link,
+.panel-principal li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: color 0.2s;
+}
+
+.panel-principal li a:hover,
+.panel-principal li a:active{
+    color: #197463ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;    
+}
+
+.boton{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    margin-top: 20px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.boton-lleno:link,
+.boton-lleno:visited{
+    background-color: #036461ff; 
+    border: 1px solid #036461ff;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.boton-fantasma:link,
+.boton-fantasma:visited{
+    border: 1px solid #036461ff;   
+    color: #036461ff; 
+}
+
+.boton-lleno:hover,
+.boton-lleno:active{
+    background-color: #197463ff; 
+    border: 1px solid #197463ff;
+    color: #fff; 
+}
+
+.boton-fantasma:hover,
+.boton-fantasma:active{
+    background-color: #197463ff;
+    border: 1px solid #197463ff;   
+    color: #fff;
+}
